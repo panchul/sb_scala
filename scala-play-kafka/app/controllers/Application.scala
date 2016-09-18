@@ -6,6 +6,8 @@ import play.api.mvc._
 import models.Book._
 import services.{KafkaConsumer, KafkaSender}
 
+import play.Logger
+
 object Application extends Controller {
 
   val system = ActorSystem("KafkaClients")

@@ -1,0 +1,9 @@
+.*.sw?
+lib_managed
+project/boot
+project/build/target
+target
+src/main/webapp/WEB-INF/web.xml.prod
+src/main/webapp/WEB-INF/web.xml
+shorty_db_dir
+hash

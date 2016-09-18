@@ -10,7 +10,7 @@ object KafkaSender {
 class KafkaSender(topic: String) extends Actor {
   // broker is running by default on host 9092
   //val producer = new KafkaProducer(topic,"localhost:9092")
-  val producer = new KafkaProducer(topic,"kafka_broker1:9092")
+  val producer = new KafkaProducer(topic,"kafka-broker1:9092")
 
   def receive = {
     case message: String => {

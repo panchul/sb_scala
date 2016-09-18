@@ -1,5 +1,7 @@
-Camel + Kafka + Akka example in Play
-=================================
+
+# Camel + Kafka + Akka example in Play
+
+(The initial version was from [https://github.com/Interrupt/akka-camel-kafka-example](https://github.com/Interrupt/akka-camel-kafka-example) )
 
 ### Creating docker image
 

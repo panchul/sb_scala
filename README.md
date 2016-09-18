@@ -22,6 +22,10 @@ I will gradually migrate the notes I have to this repository. To keep track of w
     - Simple Camel/Kafka/Akka combination of examples from internet. Uses [https://github.com/panchul/workspace](https://github.com/panchul/workspace)
       (initially got it from [https://github.com/Interrupt/akka-camel-kafka-example](https://github.com/Interrupt/akka-camel-kafka-example))
 
++ rest_shorty
+    - ﻿RESTful url shortening application written in Scala.
+      (from [https://github.com/davetron5000/shorty](https://github.com/davetron5000/shorty) )
+
 
 TODO: add a clean example from here: [https://github.com/elodina/scala-kafka](https://github.com/elodina/scala-kafka) 
       (seem to be doing things similar to my way, with virtual machines)

@@ -12,4 +12,7 @@ I will gradually migrate the notes I have to this repository. To keep track of w
     - Demoes how to create actors to produce/consume tokens.
       (To run, install ```sbt``` and run ```sbt reload clean compile run``` in that folder)
      
-     
++ scala-play-kafka
+    - Simple REST API in Play framework, combination of examples from internet. Uses [https://github.com/panchul/workspace](https://github.com/panchul/workspace)
+
+    

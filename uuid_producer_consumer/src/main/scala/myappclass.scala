@@ -44,8 +44,8 @@ object UniqueIdGeneratorActor extends Actor{
           requester !  UniqueIdGenerator.getId
         case "ConsumerDone" =>
           consumerDone = consumerDone+1
-          if(consumerDone==100){
-            println("I am done too")
+          if(consumerDone==10){
+            println("UniqueIdGeneratorActor: I am done too")
             exit()
           }
       }
@@ -72,7 +72,7 @@ class IdConsumer(name:String) extends Actor{
             println(name + " is done")
             exit()
           }else{
-            if(i % 100 == 0) {
+            if(i % 300 == 0) {
               println("TRACE: " + name + " got message number " + i)
             }
               
@@ -88,7 +88,7 @@ object myappclass extends App {
   
   println("Starting UUID generation demo.")
   UniqueIdGeneratorActor.start()
-  for(i <- 1 to 100){
+  for(i <- 1 to 10){
     val consumer = new IdConsumer("consumer" + i)
     consumer.start()
   } 

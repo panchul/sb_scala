@@ -5,6 +5,8 @@ import java.util.{Properties, UUID}
 import kafka.message._
 import kafka.producer._
 
+import play.Logger
+
 case class KafkaProducer(
                           topic: String,
                           brokerList: String,

@@ -14,5 +14,10 @@ I will gradually migrate the notes I have to this repository. To keep track of w
      
 + scala-play-kafka
     - Simple REST API in Play framework, combination of examples from internet. Uses [https://github.com/panchul/workspace](https://github.com/panchul/workspace)
+      (initially got it from Github's Interrupt/akka-play-kafka-example)
+
++ akka-camel-kafka
+    - Simple Camel/Kafka/Akka combination of examples from internet. Uses [https://github.com/panchul/workspace](https://github.com/panchul/workspace)
+      (initially got it from Github's Interrupt/akka-camel-kafka-example)
 
     

@@ -73,22 +73,29 @@ case class KafkaProducer(
   props.put("client.id", clientId.toString)
 
   val producer = new Producer[AnyRef, AnyRef](new ProducerConfig(props))
-
+  Logger.info("[TRACE]: creating a producer for sending a kafka message...")
+  
   def kafkaMesssage(message: Array[Byte], partition: Array[Byte]): KeyedMessage[AnyRef, AnyRef] = {
     if (partition == null) {
+      Logger.info(s"[TRACE]: creating new message topic:{$topic}, message:{${message.toString}}")
       new KeyedMessage(topic, message)
     } else {
+      Logger.info(s"[TRACE]: creating new message topic:{$topic}, partition:{$partition}, message:{${message.toString}}")
       new KeyedMessage(topic, partition, message)
     }
   }
 
-  def send(message: String, partition: String = null): Unit = send(message.getBytes("UTF8"), if (partition == null) null else partition.getBytes("UTF8"))
+  def send(message: String, partition: String = null): Unit = {
+    send(message.getBytes("UTF8"), if (partition == null) null else partition.getBytes("UTF8"))
+  }
 
   def send(message: Array[Byte], partition: Array[Byte]): Unit = {
     try {
+      Logger.info(s"[TRACE]: about to send message: partition:{$partition}, message:{${message.toString}}")
       producer.send(kafkaMesssage(message, partition))
     } catch {
       case e: Exception =>
+        Logger.info(s"[TRACE]: got exception {$e}")
         e.printStackTrace
         System.exit(1)
     }

@@ -10,6 +10,9 @@ The ```/doc``` folder of the ```workspace``` repo has the documentation.
 
 I will gradually migrate the notes I have to this repository. To keep track of what I am adding:
 
++ snippets
+    - Quick refresher on Scala. Just to trigger the Scala mindset if I did not use it in a while.
+
 + uuid_producer_consumer
     - Demoes how to create actors to produce/consume tokens.
       (To run, install ```sbt``` and run ```sbt reload clean compile run``` in that folder)

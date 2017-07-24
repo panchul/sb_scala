@@ -11,6 +11,7 @@ println("Hello there!")
 // run it as
 // $ scala hello.sc myargument0
 
+if (args.length > 0) // we run this snippet willy-nilly, let it not crash without arguments.
 println("Hello with the argument \"" + args(0) + "\"")
 
 
@@ -108,5 +109,10 @@ println(treasureMap.mkString(", "))
 println(treasureMap(1))
 
 println("Using exceptions")
-//assert(1 == 2)   // throws AssertionError
-
+try {
+  println("About to trigger assertion error...")
+  assert(1 == 2) // throws AssertionError
+} catch {
+  case e:AssertionError => println("Got AssertionError")
+  case _ => println("Got some other error")
+}

@@ -10,6 +10,11 @@ The ```/doc``` folder of the ```workspace``` repo has the documentation.
 
 I will gradually migrate the notes I have to this repository. To keep track of what I am adding:
 
++ knapsack
+    - Implementation of a knapsack problem, for Forge Of Empires quest, to achieve exact population size.
+      There is a quick one-file script as well, in ```snippets``` folder. This is an ```sbt``` template with
+      Scalatest, etc.
+
 + snippets
     - Quick refresher on Scala. Just to trigger the Scala mindset if I did not use it in a while.
 

@@ -1,0 +1,150 @@
+...
+
+[0m[[0minfo[0m] [0mLooking for the solution for size 43[0m
+[0m[[0minfo[0m] [0mTotal number of solutions: 22728[0m
+[0m[[0minfo[0m] [0mHere are the solutions with fewer actions than 6[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Victorian House size -474[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mEstate House size 123[0m
+[0m[[0minfo[0m] [0mEstate House size 123[0m
+[0m[[0minfo[0m] [0mCountry House size 207[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Victorian House size -474[0m
+[0m[[0minfo[0m] [0mHut size 14[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mClapboard House size 111[0m
+[0m[[0minfo[0m] [0mArcade House size 155[0m
+[0m[[0minfo[0m] [0mApartment House size 205[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Victorian House size -474[0m
+[0m[[0minfo[0m] [0mSilt House size 22[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mFrame House size 67[0m
+[0m[[0minfo[0m] [0mClapboard House size 111[0m
+[0m[[0minfo[0m] [0mWorker's House size 285[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Victorian House size -474[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mCottage size 73[0m
+[0m[[0minfo[0m] [0mBrimstone House size 94[0m
+[0m[[0minfo[0m] [0mClapboard House size 111[0m
+[0m[[0minfo[0m] [0mCountry House size 207[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Victorian House size -474[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mRoof Tile House size 44[0m
+[0m[[0minfo[0m] [0mClapboard House size 111[0m
+[0m[[0minfo[0m] [0mEstate House size 123[0m
+[0m[[0minfo[0m] [0mCountry House size 207[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Victorian House size -474[0m
+[0m[[0minfo[0m] [0mThatchet house size 27[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mRoof Tile House size 44[0m
+[0m[[0minfo[0m] [0mCountry House size 207[0m
+[0m[[0minfo[0m] [0mCountry House size 207[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Victorian House size -474[0m
+[0m[[0minfo[0m] [0mThatchet house size 27[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mRoof Tile House size 44[0m
+[0m[[0minfo[0m] [0mArcade House size 155[0m
+[0m[[0minfo[0m] [0mGambrel Roof House size 259[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Victorian House size -474[0m
+[0m[[0minfo[0m] [0mSilt House size 22[0m
+[0m[[0minfo[0m] [0mSilt House size 22[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mTown House size 156[0m
+[0m[[0minfo[0m] [0mWorker's House size 285[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Gambrel Roof House size -259[0m
+[0m[[0minfo[0m] [0mHut size 14[0m
+[0m[[0minfo[0m] [0mSilt House size 22[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mClapboard House size 111[0m
+[0m[[0minfo[0m] [0mEstate House size 123[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Gambrel Roof House size -259[0m
+[0m[[0minfo[0m] [0mThatchet house size 27[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mRoof Tile House size 44[0m
+[0m[[0minfo[0m] [0mRoof Tile House size 44[0m
+[0m[[0minfo[0m] [0mArcade House size 155[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Victorian House size -474[0m
+[0m[[0minfo[0m] [0mHut size 14[0m
+[0m[[0minfo[0m] [0mThatchet house size 27[0m
+[0m[[0minfo[0m] [0mBrimstone House size 94[0m
+[0m[[0minfo[0m] [0mEstate House size 123[0m
+[0m[[0minfo[0m] [0mGambrel Roof House size 259[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Gambrel Roof House size -259[0m
+[0m[[0minfo[0m] [0mHut size 14[0m
+[0m[[0minfo[0m] [0mThatchet house size 27[0m
+[0m[[0minfo[0m] [0mCottage size 73[0m
+[0m[[0minfo[0m] [0mBrimstone House size 94[0m
+[0m[[0minfo[0m] [0mBrimstone House size 94[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Gambrel Roof House size -259[0m
+[0m[[0minfo[0m] [0mHut size 14[0m
+[0m[[0minfo[0m] [0mThatchet house size 27[0m
+[0m[[0minfo[0m] [0mRoof Tile House size 44[0m
+[0m[[0minfo[0m] [0mBrimstone House size 94[0m
+[0m[[0minfo[0m] [0mEstate House size 123[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Gambrel Roof House size -259[0m
+[0m[[0minfo[0m] [0mHut size 14[0m
+[0m[[0minfo[0m] [0mSilt House size 22[0m
+[0m[[0minfo[0m] [0mThatchet house size 27[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mCountry House size 207[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Gambrel Roof House size -259[0m
+[0m[[0minfo[0m] [0mHut size 14[0m
+[0m[[0minfo[0m] [0mThatchet house size 27[0m
+[0m[[0minfo[0m] [0mThatchet house size 27[0m
+[0m[[0minfo[0m] [0mClapboard House size 111[0m
+[0m[[0minfo[0m] [0mEstate House size 123[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Gambrel Roof House size -259[0m
+[0m[[0minfo[0m] [0mHut size 14[0m
+[0m[[0minfo[0m] [0mThatchet house size 27[0m
+[0m[[0minfo[0m] [0mThatchet house size 27[0m
+[0m[[0minfo[0m] [0mThatchet house size 27[0m
+[0m[[0minfo[0m] [0mCountry House size 207[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 6----------------[0m
+[0m[[0minfo[0m] [0mdelete Gambrel Roof House size -259[0m
+[0m[[0minfo[0m] [0mHut size 14[0m
+[0m[[0minfo[0m] [0mThatchet house size 27[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mCottage size 73[0m
+[0m[[0minfo[0m] [0mTown House size 156[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 5----------------[0m
+[0m[[0minfo[0m] [0mdelete Victorian House size -474[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mEstate House size 123[0m
+[0m[[0minfo[0m] [0mArcade House size 155[0m
+[0m[[0minfo[0m] [0mCountry House size 207[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 5----------------[0m
+[0m[[0minfo[0m] [0mdelete Victorian House size -474[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mCottage size 73[0m
+[0m[[0minfo[0m] [0mApartment House size 205[0m
+[0m[[0minfo[0m] [0mCountry House size 207[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 5----------------[0m
+[0m[[0minfo[0m] [0mdelete Victorian House size -474[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mRoof Tile House size 44[0m
+[0m[[0minfo[0m] [0mTown House size 156[0m
+[0m[[0minfo[0m] [0mWorker's House size 285[0m
+[0m[[0minfo[0m] [0mnext solution, sum 43 total actions: 5----------------[0m
+[0m[[0minfo[0m] [0mdelete Victorian House size -474[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mChalet size 32[0m
+[0m[[0minfo[0m] [0mCottage size 73[0m
+[0m[[0minfo[0m] [0mBoarding House size 380[0m
+[0m[[0minfo[0m] [0mHave a nice day[0m
+[0m[[32msuccess[0m] [0mTotal time: 7 s, completed Jul 30, 2017 2:34:40 PM[0m

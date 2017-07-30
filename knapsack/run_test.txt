@@ -1,0 +1,16 @@
+...
+[0m[[0minfo[0m] [0m[32mKnapsackSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mKnapsack[0m[0m
+[0m[[0minfo[0m] [0m[32m- should solve 2 with 2[0m[0m
+[0m[[0minfo[0m] [0m[32mKnapsack[0m[0m
+[0m[[0minfo[0m] [0m[32m- should solve 4 with 4 and 2,2[0m[0m
+[0m[[0minfo[0m] [0m[32mKnapsack[0m[0m
+[0m[[0minfo[0m] [0m[32m- should solve 1 with -3,4 and -3,2,2[0m[0m
+[0m[[0minfo[0m] [0m[32mKnapsack[0m[0m
+[0m[[0minfo[0m] [0m[32m- should solve 1 with -5,2,4 and -5,2,2,2[0m[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 328 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 4[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[32msuccess[0m] [0mTotal time: 6 s, completed Jul 30, 2017 2:30:59 PM[0m

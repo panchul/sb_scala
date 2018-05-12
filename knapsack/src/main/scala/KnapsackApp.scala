@@ -2,9 +2,12 @@ package knapsack
 
 object KnapsackMain {
   
-  val defaultSize = 1997-1954
+  //val defaultSize = 1997-1954
+  val defaultSize = 1150-698 // I'll delete bungalow
+//  val defaultSize = 2120-698 // I'll delete prefab high-rise
   
   val defaultItemBank = Set(
+    //Building(-12,"Build Blacksmith"),
     Building(14,"Hut"),
     Building(22,"Silt House"),
     Building(27,"Thatchet house"),
@@ -23,13 +26,39 @@ object KnapsackMain {
     Building(380,"Boarding House"),
     Building(474,"Victorian House"),
     Building(285,"Worker's House"),
-    Building(510,"Tenement House")
+    Building(510,"Tenement House"),
+    
   )
 
   val defaultInventory = List(
-    Building(-259,"delete Gambrel Roof House"),
+//    Building(-1040,"delete Duplex House"),
+
+//    Building(-1150,"delete Bungalow"),
+//    Building(-1150,"delete Bungalow"),
+//    Building(-1150,"delete Bungalow"),
+
+    //Building(-2120,"delete Prefabricated High-Rise"),
+//    Building(-2120,"delete Prefabricated High-Rise"),
 
 //    Building(-474,"delete Victorian House"),
+
+//    Building(1900,"delete Commando Camp"),
+//    Building(2100,"delete Machine Gun Range"),
+//    Building(2400,"delete IVF Factory"),
+//    Building(2600,"delete Universal Tank Factory"),
+//    Building(2800,"delete Rocket Artillery Factory"),
+
+//    Building(-12,"delete Blacksmith"),
+//    Building(-12,"delete Blacksmith"),
+//    Building(-12,"delete Blacksmith")
+
+//    Building(666,"delete Toy Factory"),
+//    Building(437,"delete Junk Yard"),
+//    Building(1111,"delete Car Factory")
+
+
+    //    Building(-259,"delete Gambrel Roof House"),
+//    Building(-474,"delete Victorian House"),
 //    Building(-474,"delete Victorian House"),
 //    Building(-474,"delete Victorian House"),
 //    Building(-474,"delete Victorian House"),
@@ -43,7 +72,7 @@ object KnapsackMain {
 //
 //    Building(-474,"delete Victorian House"),
 //    Building(-474,"delete Victorian House"),
-    Building(-474,"delete Victorian House")
+//    Building(-474,"delete Victorian House")
   )
   
   def main(args: Array[String]): Unit = {

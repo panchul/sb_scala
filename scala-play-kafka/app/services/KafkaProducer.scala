@@ -35,20 +35,20 @@ case class KafkaProducer(
                             * codec for compression using SnappyCompressionCodec.codec instead of DefaultCompressionCodec.codec below.
                             */
 
-                          batchSize: Integer = 200,
+                          batchSize: Integer = 10, // 200,
                           /** batchSize
                             * The number of messages to send in one batch when using async mode.
                             * The producer will wait until either this number of messages are ready
                             * to send or queue.buffer.max.ms is reached.
                             */
-                          messageSendMaxRetries: Integer = 3,
+                          messageSendMaxRetries: Integer = 1, // 3,
                           /** messageSendMaxRetries
                             * This property will cause the producer to automatically retry a failed send request.
                             * This property specifies the number of retries when such failures occur. Note that
                             * setting a non-zero value here can lead to duplicates in the case of network errors
                             * that cause a message to be sent but the acknowledgement to be lost.
                             */
-                          requestRequiredAcks: Integer = -1
+                          requestRequiredAcks: Integer = 0 // -1
                           /** requestRequiredAcks
                             *  0) which means that the producer never waits for an acknowledgement from the broker (the same behavior as 0.7).
                             *     This option provides the lowest latency but the weakest durability guarantees (some data will be lost when a server fails).
@@ -97,7 +97,9 @@ case class KafkaProducer(
       case e: Exception =>
         Logger.info(s"[TRACE]: got exception {$e}")
         e.printStackTrace
-        System.exit(1)
+      
+        Logger.info(s"[ERROR]: Here's where I would shutdown the server, just for debugging purposes commented out exit()")
+        // System.exit(1)
     }
   }
 }

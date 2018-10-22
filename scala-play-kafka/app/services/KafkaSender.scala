@@ -11,6 +11,7 @@ class KafkaSender(topic: String) extends Actor {
   // broker is running by default on host 9092
   //val producer = new KafkaProducer(topic,"localhost:9092")
   val producer = new KafkaProducer(topic,"kafka-broker1.vm:9092")
+  //val producer = new KafkaProducer(topic,"kafka_broker1.vm:9092")
   Logger.info(s"[TRACE] Created producer {${producer.toString}}")
   
   def receive = {

@@ -14,7 +14,8 @@ class KafkaConsumer(topic: String) extends Actor {
   val props = new Properties()
   props.put("auto.commit", "true")
   //props.put("zookeeper.connect", "localhost:2181")
-  props.put("zookeeper.connect", "zookeeper1:2181")
+  //props.put("zookeeper.connect", "zookeeper1:2181")
+  props.put("zookeeper.connect", "zookeeper1.vm:2181")
 
   def receive = {
     case group: String => {

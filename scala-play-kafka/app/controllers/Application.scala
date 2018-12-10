@@ -37,4 +37,16 @@ object Application extends Controller {
       }
     )
   }
+
+  def produce_batch = Action {
+    val event = """{ "event": "produce_batch" }"""
+    kafkaProducer ! event
+    Ok("did produce_batch")
+  }
+
+  def consume_batch = Action {
+    val groupid = "mygroup"
+    kafkaConsumer ! groupid
+    Ok("did consume_batch")
+  }
 }

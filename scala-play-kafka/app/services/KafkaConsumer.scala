@@ -15,7 +15,8 @@ class KafkaConsumer(topic: String) extends Actor {
   props.put("auto.commit", "true")
   //props.put("zookeeper.connect", "localhost:2181")
   //props.put("zookeeper.connect", "zookeeper1:2181")
-  props.put("zookeeper.connect", "zookeeper1.vm:2181")
+  //props.put("zookeeper.connect", "zookeeper1.vm:2181")
+  props.put("zookeeper.connect", "192.168.10.56:2181")
 
   def receive = {
     case group: String => {
@@ -26,6 +27,7 @@ class KafkaConsumer(topic: String) extends Actor {
       try {
         for (message <- stream) {
           try {
+            Logger.info(s"[TRACE]: consumer received message: message:{${message.toString}}")
             Logger.debug(new String(message.message()))
           } catch {
             case e: Throwable => Logger.error("error processing message, skipping and resume consumption: " + e)

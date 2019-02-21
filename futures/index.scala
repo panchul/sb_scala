@@ -1,5 +1,6 @@
 
 import scala.concurrent._
+import scala.concurrent.duration._
 import scala.util.{Success, Failure}
 import ExecutionContext.Implicits.global
 
@@ -30,6 +31,8 @@ val firstOccurrence2: Future[Int] = Future {
 
 println(s"This should say 'not completed': firstOccurrence2 = $firstOccurrence2")
 
+val myres = Await.result(firstOccurrence2, 30.second)
+println(s"This should give the result: firstOccurrence2 = $myres")
 
 println("end of the program")
 

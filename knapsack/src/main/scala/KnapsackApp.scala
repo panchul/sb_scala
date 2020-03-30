@@ -26,8 +26,7 @@ object KnapsackMain {
     Building(380,"Boarding House"),
     Building(474,"Victorian House"),
     Building(285,"Worker's House"),
-    Building(510,"Tenement House"),
-    
+    Building(510,"Tenement House")
   )
 
   val defaultInventory = List(
